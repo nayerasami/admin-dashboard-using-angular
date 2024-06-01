@@ -1,0 +1,51 @@
+<div class="side-nav">
+  <nav>
+    <a class="navbar-brand text-light px-2" href="#"><img src="../../../assets/images/shopx.png" class="w-75" alt=""></a>
+    <ul>
+      <li  [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }">
+        <a  [routerLink]="['/']">
+          <i class="bi bi-columns-gap px-2"></i>
+          Dashboard
+        </a>
+      </li>
+      <li  [routerLinkActive]="['active']">
+        <a [routerLink]="['products']">
+          <i class="bi bi-journal-bookmark-fill px-2"></i>
+            Products
+          </a>
+      </li>
+      <li [routerLinkActive]="['active']">
+        <a  [routerLink]="['users']">
+          <i class="bi bi-person-lines-fill px-2"></i> 
+          Users
+        </a>
+      </li>
+      <li  [routerLinkActive]="['active']">
+        <a [routerLink]="['orders']">
+          <i class="bi bi-border-style px-2"></i> 
+          Orders
+        </a>
+      </li>
+      <li  [routerLinkActive]="['active']">
+        <a  [routerLink]="['categories']">
+          <i class="bi bi-bounding-box-circles px-2"></i> 
+          Categories
+        </a>
+      </li>
+      <li  [routerLinkActive]="['active']">
+        <a [routerLink]="['brands']">
+          <i class="bi bi-bounding-box px-2"></i> Brands</a>
+      </li>
+      <li  [routerLinkActive]="['active']">
+        <a [routerLink]="['notifications']">
+          <i class="bi bi-bell-fill px-2"></i> Notifications
+        </a>
+      </li>
+      <li  [routerLinkActive]="['active']">
+        <a  [routerLink]="['settings']"
+          ><i class="bi bi-gear-wide px-2"></i> Settings
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>

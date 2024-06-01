@@ -1,0 +1,19 @@
+.header {
+    color:#05233d;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  button{
+    background-color: #05233d;
+    color: white;
+  }
+  
+button:hover,
+button:active{
+  background-color: rgb(197, 255, 149);;
+  color: #05233d;
+}
+    

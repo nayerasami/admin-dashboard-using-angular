@@ -1,0 +1,40 @@
+.side-nav {
+
+  background-color: #05233d; 
+  padding: 20px;
+
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-nav ul li {
+  margin: 20px 0;
+}
+
+.side-nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.side-nav ul li a:hover{
+  background-color: rgb(197, 255, 149);
+  color:rgb(5, 35, 61);
+  
+}
+.active{
+  background-color: rgb(197, 255, 149);
+  color:rgb(5, 35, 61) ;
+  text-decoration: none;
+  display: block;
+  border-radius: 20px;
+}
+.active a{
+  color:rgb(5, 35, 61) !important;
+}
