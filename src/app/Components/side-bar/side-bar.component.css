@@ -2,6 +2,7 @@
 
   background-color: #05233d; 
   padding: 20px;
+  min-height: 100%;
 
 }
 
@@ -24,8 +25,8 @@
 }
 
 .side-nav ul li a:hover{
-  background-color: rgb(197, 255, 149);
-  color:rgb(5, 35, 61);
+  background-color: #c5ff95;
+  color:#05233d;
   
 }
 .active{

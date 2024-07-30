@@ -1,24 +1,20 @@
-.dashboard {
-    padding: 20px;
-    color:#05233d;
 
+
+.dashboard {
+    color:rgb(5, 35, 61);
+background-color:  rgba(197, 255, 149,0.4);
+border-radius: 15px;
+margin: 20px;
   }
   
   .dashboard h1 {
     margin-bottom: 20px;
   }
   
-  .dashboard button {
-    margin: 5px;
-    padding: 10px 20px;
-    background-color: #007bff; /* Bootstrap primary color */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+
   
-  .dashboard button:hover {
-    background-color: #0056b3;
+  img{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
   }
-  

@@ -14,6 +14,13 @@ import { ManageBrandsComponent } from './Components/manage-brands/manage-brands.
 import { SettingsComponent } from './Components/settings/settings.component';
 import { NotFoundComponent } from './Components/not-found/not-found.component';
 import { NotificationsComponent } from './Components/notifications/notifications.component';
+import { LoginComponent } from './Components/login/login.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RegisterComponent } from './Components/register/register.component';
+import { AddProductFormComponent } from './Components/manage-products/add-product-form/add-product-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AuthLayoutComponent } from './Components/auth-layout/auth-layout.component';
+import { DashboardLayoutComponent } from './Components/dashboard-layout/dashboard-layout.component';
 
 @NgModule({
   declarations: [
@@ -29,11 +36,19 @@ import { NotificationsComponent } from './Components/notifications/notifications
     SettingsComponent,
     NotFoundComponent,
     NotificationsComponent,
+    LoginComponent,
+    RegisterComponent,
+    AddProductFormComponent,
+    AuthLayoutComponent,
+    DashboardLayoutComponent,
    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

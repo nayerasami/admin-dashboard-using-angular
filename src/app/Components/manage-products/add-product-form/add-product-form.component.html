@@ -1,0 +1,64 @@
+<div class="modal fade" id="popupFormModal" tabindex="-1" aria-labelledby="popupFormModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="popupFormModalLabel">Add New Product</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Product Name</label>
+                        <input type="text" class="form-control" id="name" formControlName="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Product Quantity</label>
+                        <input type="text" class="form-control" id="quantity" formControlName="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Product Price</label>
+                        <input type="text" class="form-control" id="price" formControlName="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="desc" class="form-label">Product Description</label>
+                        <input type="text" class="form-control" id="desc" formControlName="email" required>
+                    
+                    </div>
+                    <div class="mb-3">
+                        <label for="category" class="form-label">Product Category</label>
+                        <select class="form-select" id="category" aria-label="Default select example">
+                            <option selected>select product's category</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subcategory" class="form-label">Sub-Category</label>
+                        <select class="form-select" id="subcategory" aria-label="Default select example">
+                            <option selected>select product's sub-category</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="brand" class="form-label">Brand</label>
+                        <select class="form-select" id="brand" aria-label="Default select example">
+                            <option selected>select product's brand</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                        <div class="mb-3">
+                            <label for="prodImages" class="form-label">Upload Product Images</label>
+                            <input class="form-control form-control-sm" id="prodImages" type="file">
+                    </div>
+                    <button type="submit" class="btn btn-primary">save</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

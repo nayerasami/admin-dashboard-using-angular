@@ -1,0 +1,17 @@
+.addBtn {
+    background-color: #c5ff95;
+    color: #05233d;
+    border-radius: 8px;
+    border: none;
+    padding: 16px;
+}
+.editButton{
+    background-color: #05233d;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+h2{
+    color: #05233d;
+}
